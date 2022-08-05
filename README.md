@@ -12,7 +12,6 @@
 - Mengerti penggunaan Github
   - add remote
   - push
-  - clone
   - pull request
   - pull
 
