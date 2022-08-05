@@ -37,5 +37,5 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 
 ## Output yang harus disubmit ke LMS
 
-- Kamu harus membagikan Github repository yang berisi commit history dan pull request sesuai skenario di atas. Contohnya [di sini](https://github.com/aditira/ruang-belajar)
+- Kamu harus membagikan Github repository yang berisi commit history dan pull request sesuai skenario pada file `case-study.md`. Contohnya [di sini](https://github.com/aditira/ruang-belajar)
 - Link Github repository tersebut yang nantinya akan kamu submit di LMS
