@@ -2,7 +2,7 @@
 
 ## Scenario 1
 
-Kita adalah seorang programmer yang diminta oleh Boss kita untuk membuat aplikasi pembelajaran online bernama **ruang-belajar**. Ini adalah aplikasi yang cukup kompleks sehingga setiap perubahan harus:
+Kita adalah seorang programmer yang diminta oleh Boss untuk membuat aplikasi pembelajaran online bernama **ruang-belajar**. Ini adalah aplikasi yang cukup kompleks sehingga setiap perubahan harus:
 
 - Tercatat dengan baik
 - Memiliki backup
@@ -50,9 +50,9 @@ Kemudian kita membuat file berikutnya yaitu `test.hmtl` dengan isi:
 
 Namun kita tidak ingin file `test.hmtl` di-commit di Git, karena file itu hanya sample page percobaan pribadi. Akhirnya kita harus mendaftarkannya ke file `.gitignore`.
 
-Lalu kita membuat folder di repository kita untuk menampung semua halaman dari aplikasi **ruang-belajar** bernama `pages`.
+Lalu kita membuat folder di repository untuk menampung semua halaman dari aplikasi **ruang-belajar** bernama `pages`.
 
-Lalu kita tambahkan beberapa file disana yaitu `meterial.html`, `question.html` dan kita melakukan commit berikutnya dengan pesan "add pages ruang-belajar" commit ini sudah termasuk dengan file `.gitignore`.
+Selanjutnya kita menambahkan beberapa file disana yaitu `meterial.html`, `question.html` dan kita melakukan commit berikutnya dengan pesan "add pages ruang-belajar" commit ini sudah termasuk dengan file `.gitignore`.
 
 Akhirnya strukture file dari aplikasi yang kita buat akan menjadi seperti ini:
 
@@ -103,7 +103,7 @@ Selanjutnya, kita membuat commit untuk file `material.html` saja dengan pesan "a
 
 Selanjutnya kita akan mengerjakan ke-2 halaman tersebut dengan target yang sudah ditentukan, dan dirasa itu akan cukup.
 
-Namun, tiba-tiba atasan kita meminta untuk menambahkan halaman dashboard untuk menganalisa jawaban dan nilai dari pengguna aplikasi yang kita buat, namun tidak menambah batas waktu pengerjaan.
+Namun, tiba-tiba Boss kita meminta untuk menambahkan halaman dashboard untuk menganalisa jawaban dan nilai dari pengguna aplikasi yang kita buat, tetapi tidak menambah batas waktu pengerjaan.
 
 Sepertinya, hal tersebut tidak akan cukup waktunya jika dikerjakan di jam kerja. Akhirnya, kita putuskan untuk mengerjakan feature dashboard yang diminta di luar jam kerja, malam hari atau weekend. Tetapi feature baru ini tidak ingin sampai mengganggu feature utama yang sedang dikerjakan.
 
@@ -113,9 +113,9 @@ Jadi kita putuskan untuk membuat branch baru bernama `dashboard-feature`.
 
 Akhirnya malam hari pun tiba dan jam kerja telah berlalu, namun rasanya kita masih semangat untuk menyelesaikan aplikasi.
 
-Akhirnya kita putuskan untuk membuat feature dashboar yang diminta. Jadi dari branch utama, kita harus pindah ke branch `dashboard-feature` dan menambahkan file `dashboard.html` di folder pages.
+Akhirnya kita putuskan untuk membuat feature dashboard yang diminta. Jadi dari branch utama, kita harus pindah ke branch `dashboard-feature` dan menambahkan file `dashboard.html` di folder pages.
 
-Segingga struktur folder di branch `dashboard-feature` akan terlihat seperti ini:
+Sehingga struktur folder di branch `dashboard-feature` akan terlihat seperti ini:
 
 ```path
 📁ruang-belajar
@@ -147,9 +147,9 @@ Karena malah sudah larut dan kita butuh istirahat untuk lanjut bekerja di keesok
 
 ## Scenario 3
 
-Keesokah harinya di jam kerja, kita siap kembali megerjakan feature utama dari aplikasi yang kita buat.
+Keesokan harinya di jam kerja, kita siap kembali megerjakan feature utama dari aplikasi yang kita buat.
 
-Jadi kita k harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan untuk mengerjakan file `meterial.html` dan menambahkan beberapa paraghraph dari file tersebut:
+Jadi kita harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan untuk mengerjakan file `meterial.html` dan menambahkan beberapa paragraph dari file tersebut:
 
 ```html
 <html>
@@ -167,11 +167,11 @@ Jadi kita k harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan un
 </html>
 ```
 
-Lalu kita lakukan commit kembali denga pesan "add some paragraph git basic material"
+Lalu kita lakukan commit kembali dengan pesan "add some paragraph git basic material"
 
 ![Graph 1](./assets/graph1.png)
 
-Sekarang terlihat bahwa branch utama kita terisolasi dari perubahan kita tadi malam di branch `dashboard-feature`.
+Sekarang terlihat bahwa branch utama terisolasi dari perubahan kita tadi malam di branch `dashboard-feature`.
 
 Selanjutnya kita menambahkan paragraph untuk materi di list selanjutnya pada file yang sama:
 
@@ -197,13 +197,13 @@ Dan melakukan commit kembali dengan pesan "update paragraph github material"
 
 ![Graph 2](./assets/graph2.png)
 
-Semua branch berjalan independent, tidak saling berkaitan selama progress berjalan.
+Semua branch berjalan _independent_, tidak saling berkaitan selama _progress_ berjalan.
 
 ## Scenario 4
 
 Malam hari nya, kita siap untuk menyelesaikan branch `dashboard-feature`. Jadi dari branch `master` kita pindah ke branch tersebut.
 
-Lalu kita menambahkan code di file `dashborad.html` untuk mengelesaikannya:
+Lalu kita menambahkan code di file `dashborad.html` untuk menyelesaikannya:
 
 ```html
 <html>
@@ -276,7 +276,7 @@ Di commit kita selanjutnya menambahkan total 1.000 soal:
 </html>
 ```
 
-Tidak lupa melakukan commit dengan pesan "add 1000 question". Namun, baru saja kita melakukan commit, Tiba-tiba boss kita meminta untuk tidak membuat soal sebanyak itu. Cukup dengan 5 soal saja. Akhirnya, di commit berikutnya kita dan **menghapus semua soal** tersebut dan menggantinya dengan 5 soal:
+Tidak lupa melakukan commit dengan pesan "add 1000 question". Namun, baru saja kita melakukan commit, Tiba-tiba boss kita diminta untuk tidak membuat soal sebanyak itu. Cukup dengan 5 soal saja. Akhirnya, di commit berikutnya kita dan **menghapus semua soal** tersebut dan menggantinya dengan 5 soal:
 
 ```html
 <html>
@@ -304,25 +304,25 @@ Jika kita menulis ulang secara manual, tentunya ini akan membutuhkan waktu yang 
 
 ![Graph 4](./assets/graph4.png)
 
-Setelah melakukan revert, maka soal kita sudah kembali di rollback sehingga kita tidak perlu menulis ulang sebanyak 1000 soal.
+Setelah melakukan revert, maka soal kita sudah _rollback_ sehingga tidak perlu menulis ulang sebanyak 1000 soal.
 
 ## Scenario 5
 
 Setelah mengerjakan cukup banyak feature, kita sadar bahwa halaman materi di file `meterial.html` masih cukup banyak yang harus dikerjakan. Namun deadline aplikasi ini untuk release sudah semakin dekat.
 
-Jadi untuk mempercepat progress pengerjaan, maka boss ita memberi programmer tambahan bernama **Bob** untuk membantu menyelesaikan aplikasi ini.
+Jadi untuk mempercepat progress pengerjaan, maka Boss kita memberi programmer tambahan bernama **Bob** untuk membantu menyelesaikan aplikasi ini.
 
-Agar kita bisa berkolaborasi dengan **Bob** maka kita harus membagikan repository ini ke padanya. Namun akan sangat primitif jika kita membagikannya menggunakan _flashdisk_ 😅. Mungkin itu bisa, tapi akan sangat sulit ketika kita ingin melakukan sinkronisasi perubahan kita dengan perubahan **Bob**.
+Agar kita bisa berkolaborasi dengan **Bob** maka kita harus membagikan repository ini ke padanya. Namun akan sangat _primitif_ jika kita membagikannya menggunakan _flashdisk_ 😅. Mungkin itu bisa, tapi akan sangat sulit ketika kita ingin melakukan sinkronisasi perubahan kita dengan perubahan **Bob**.
 
 Maka dari itu, kita akan membuat repository bersama yang juga bisa diakses oleh **Bob** di **Github** profile kita bernama **ruang-belajar** yang bisa diakses _public_.
 
-Setelah membuatnya, kita melakukan push repository yang ada di local kita, ke repository Github yang baru saja kita buat dengan branch utama yaitu `main`.
+Setelah membuatnya, kita melakukan push repository yang ada di local kita, ke repository Github yang baru saja dibuat dengan branch utama yaitu `main`.
 
-Setelah itu minta kita meminta **Bob** untuk melakukan cloning repository tersebut dan membuat branch sendiri dan bekerja disana, jugaSS melakukan push perubahan rutin dengan commit yang jelas, agar mudah untuk di maintain.
+Setelah itu, kita meminta **Bob** untuk melakukan cloning repository tersebut dan membuat branch sendiri dan bekerja disana, juga melakukan push perubahan rutin dengan commit yang jelas, agar mudah untuk di maintain.
 
 ## Scenario 6
 
-Sekarang bayangkan sudut pandang kita sebagai **Bob**, kita akan melakukan clonning dan membuat branch baru bernama `material-from-bob`. Lalu kita pindah ke branch tersebut dan menambahkan beberapa materi pada file `material.html` yaitu:
+Sekarang bayangkan sudut pandang kita sebagai **Bob**, kita akan melakukan cloning dan membuat branch baru bernama `material-from-bob`. Lalu kita pindah ke branch tersebut dan menambahkan beberapa materi pada file `material.html` yaitu:
 
 ```html
 <html>
