@@ -26,7 +26,7 @@
 Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study yang menceritakan bagaimana menggunakan git dan github dalam pekerjaan. Untuk mengerjakan assignment ini, kamu bisa ikuti langkah-langkah berikut:
 
 - Baca setiap scenario dan ikuti setiap tindakan yang dilakukan oleh sudut pandang pertama (**Kita**) dan sudut pandang ke dua (**Bob**).
-- Pembuatan `commit message`, `branch` dan `name repositoy github`, `structure folder beserta penamaan file` dan `pull request` harus sama persis dengan yang ada di setiap scenario.
+- Pembuatan `commit message`, `branch` dan `name repositoy github`, `structure folder beserta penamaan file` dan `pull request` **harus sama persis** dengan yang ada di setiap scenario.
 - Perjalanan history commit juga harus sesuai dengan scenario.
 - Jika ada beberapa yang tidak sesuai dengan scenario, maka akan mengurangi penilaian untuk assignment ini.
 - Kerjakan **case study di luar repository ini!**
