@@ -30,6 +30,11 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 - Perjalanan history commit juga harus sesuai dengan scenario.
 - Jika ada beberapa yang tidak sesuai dengan scenario, maka akan mengurangi penilaian untuk assignment ini.
 - Kerjakan **case study di luar repository ini!**
+- Pastikan setelah kamu melakukan push respository ke github, di menu 📈 **Insights** di dalam nya ada menu **Network** akan terlihat seperti ini:
+
+  ![Github Graph](./assets/github-graph.png)
+
+  > Pastikan semuanya sama!
 
 ## Output
 
@@ -37,5 +42,5 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 
 ## Output yang harus disubmit ke LMS
 
-- Kamu harus membagikan Github repository yang berisi commit history dan pull request sesuai skenario pada file `case-study.md`.
+- Kamu harus membagikan Github repository yang berisi commit history secara public pada profile github dan pull request sesuai skenario pada file `case-study.md`.
 - Link Github repository tersebut yang nantinya akan kamu submit di LMS
