@@ -38,7 +38,7 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 
 ## Output
 
-- Link Github Repository _(hasil pengerjaan case study)_
+- Link Github Repository _(https://github.com/RezaZul05/ruang-belajar)_
 
 ## Output yang harus disubmit ke LMS
 
