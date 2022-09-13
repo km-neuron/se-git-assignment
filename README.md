@@ -38,7 +38,7 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 
 ## Output
 
-- Link Github Repository _(hasil pengerjaan case study)_
+- Link Github Repository (https://github.com/indafitria/ruang-belajar.git)
 
 ## Output yang harus disubmit ke LMS
 
