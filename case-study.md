@@ -35,7 +35,7 @@ Lalu kita mengisi file `index.html` dengan code:
 
 Agar isi dari file `index.html` tidak hilang, maka kita melakukan commit dengan pesan "inisialisasi file index.html"
 
-Kemudian kita membuat file berikutnya yaitu `test.hmtl` dengan isi:
+Kemudian kita membuat file berikutnya yaitu `test.html` dengan isi:
 
 ```html
 <html>
@@ -48,11 +48,11 @@ Kemudian kita membuat file berikutnya yaitu `test.hmtl` dengan isi:
 </html>
 ```
 
-Namun kita tidak ingin file `test.hmtl` di-commit di Git, karena file itu hanya sample page percobaan pribadi. Akhirnya kita harus mendaftarkannya ke file `.gitignore`.
+Namun kita tidak ingin file `test.html` di-commit di Git, karena file itu hanya sample page percobaan pribadi. Akhirnya kita harus mendaftarkannya ke file `.gitignore`.
 
 Lalu kita membuat folder di repository untuk menampung semua halaman dari aplikasi **ruang-belajar** bernama `pages`.
 
-Selanjutnya kita menambahkan beberapa file disana yaitu `meterial.html`, `question.html` dan kita melakukan commit berikutnya dengan pesan "add pages ruang-belajar" commit ini sudah termasuk dengan file `.gitignore`.
+Selanjutnya kita menambahkan beberapa file disana yaitu `material.html`, `question.html` dan kita melakukan commit berikutnya dengan pesan "add pages ruang-belajar" commit ini sudah termasuk dengan file `.gitignore`.
 
 Akhirnya strukture file dari aplikasi yang kita buat akan menjadi seperti ini:
 
@@ -60,7 +60,7 @@ Akhirnya strukture file dari aplikasi yang kita buat akan menjadi seperti ini:
 📁ruang-belajar
    📁.git
    📁pages
-      📄meterial.html
+      📄material.html
       📄question.html
    📄index.html
    📄test.hmtl
@@ -149,7 +149,7 @@ Karena malah sudah larut dan kita butuh istirahat untuk lanjut bekerja di keesok
 
 Keesokan harinya di jam kerja, kita siap kembali megerjakan feature utama dari aplikasi yang kita buat.
 
-Jadi kita harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan untuk mengerjakan file `meterial.html` dan menambahkan beberapa paragraph dari file tersebut:
+Jadi kita harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan untuk mengerjakan file `material.html` dan menambahkan beberapa paragraph dari file tersebut:
 
 ```html
 <html>
@@ -308,7 +308,7 @@ Setelah melakukan revert, maka soal kita sudah _rollback_ sehingga tidak perlu m
 
 ## Scenario 5
 
-Setelah mengerjakan cukup banyak feature, kita sadar bahwa halaman materi di file `meterial.html` masih cukup banyak yang harus dikerjakan. Namun deadline aplikasi ini untuk release sudah semakin dekat.
+Setelah mengerjakan cukup banyak feature, kita sadar bahwa halaman materi di file `material.html` masih cukup banyak yang harus dikerjakan. Namun deadline aplikasi ini untuk release sudah semakin dekat.
 
 Jadi untuk mempercepat progress pengerjaan, maka Boss kita memberi programmer tambahan bernama **Bob** untuk membantu menyelesaikan aplikasi ini.
 
@@ -394,7 +394,7 @@ Terlihat bahwa, ada beberapa conflict yang terjadi. Kita harus memilih kedua per
 
 Setelah memilih kedua perubahan, lalu kita lakukan commit dengan pesan "Merge branch 'main' into material-from-bob" dan tidak lupa melakukan push.
 
-Maka sekarang terlihat bahwa PR **Bob** sudah tidak terjadi conflict dan sial digabungkan dengan menekan tombol "Merge pull request".
+Maka sekarang terlihat bahwa PR **Bob** sudah tidak terjadi conflict dan bisa digabungkan dengan menekan tombol "Merge pull request".
 
 ![Merge Button](./assets/merge-button.png)
 
