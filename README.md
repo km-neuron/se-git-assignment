@@ -38,7 +38,7 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 
 ## Output
 
-- Link Github Repository _(hasil pengerjaan case study)_
+- Link Github Repository _([Diva Maharani Putrihedi - FE3291491](https://github.com/divamaharanii/ruang-belajar.git))_
 
 ## Output yang harus disubmit ke LMS
 
