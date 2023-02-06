@@ -1,4 +1,4 @@
-# **Software Engineering - Git and Github Exercise**
+# **Software Engineering - Git and Github Assignment**
 
 ## Objectives
 
