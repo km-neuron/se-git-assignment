@@ -413,7 +413,7 @@ Akhirnya pekerjaan membuat aplikasi **ruang-belajar** telah selesai, untuk commi
 
 Contributor:
 
-- `<yourname> - <id>`
+- `Muhammad Yogie Pratama - BE8435515 https://github.com/yogiepratama1/ruang-belajar`
 - Bob
 ```
 
